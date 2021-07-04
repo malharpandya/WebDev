@@ -1,0 +1,61 @@
+body{
+    margin:20px;
+}
+
+.container{
+    background-color:#EFF0F2;
+    line-height: 1.6em;
+    padding-bottom:80px;
+}
+
+.formHeader{
+    text-align: center;
+    padding-top:50px;
+    font-family: sans-serif;
+}
+
+.formHeader h2{
+    font-weight: lighter;
+}
+
+#secondary{
+    color:gray;
+    font-family: sans-serif;
+}
+
+.form{
+    overflow:hidden;
+}
+
+.formElement{
+    margin-top:5px;
+}
+.mainInput::placeholder{
+    font-family: Georgia;
+}
+
+label{
+    display:block;
+}
+
+.mainInput{
+    width:100%;
+    border: 1px solid lightgray;
+    font-family: Georgia;
+}
+
+.button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:10px;
+}
+
+.button input{
+    background-color: #8ED843;
+    color:white;
+    padding:15px 20px;
+    border:none;
+    border-radius: 30px;
+    font-weight: bold;
+}
